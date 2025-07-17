@@ -20,7 +20,7 @@ We calculate the angle using 3 keypoints (e.g., shoulder, elbow, wrist, kip,ankl
 ```python
 def calculate_angle(a, b, c):
     # a, b, c: points (x, y)
-    angle = np.arccos(...)
+    angle = np.arctan2(...)
     return angle
 🗣️ Voice Commands
 bash
